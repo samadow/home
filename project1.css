@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+.m{
+    width: 100%;
+    height: 500px;
+    background-color: grey;
+    display: flex;
+}
+.m1{
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    position: absolute;
+    left: 20px;
+}
+.m2{
+    width: 400px;
+    height: 300px;
+    background-color: blanchedalmond;
+}
+.m3{
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    position: relative;
+    top: 50px;
+}
+.m4{
+    width: 400px;
+    height: 300px;
+    background-color: blue;
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+.m{
+    width: 100%;
+    height: 600px;
+    display: flex;
+
+}
+.m3{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: fixed;
+    top: 50px;
+}
+.m4{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(5, 5, 10);
+}
+.m5{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 89, 0);
+}
