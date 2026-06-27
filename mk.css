@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows: repeat(2,300px);
+    background-color: grey;
+    height: 800px;
+    /* place-items: center center; */
+    /* place-items:space-evenly space-evenly */
+    /* place-content: space-evenly space-evenly; */
+    /* grid-area: 1 / 1 / 3 /3; */
+}
+.itm{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    /* align-self: center; */
+    place-self: center  center;
+} 
+.itm1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.itm2{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}

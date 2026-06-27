@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+.m{
+    display: grid;
+    /* height: 800px; */
+    /* background-color: rgb(207, 199, 190); */
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(8,100px);
+    gap: 10px;
+
+}
+.di0{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(221, 144, 144);
+    
+}
+.m1{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(8,100px)
+  
+    
+}
+.di1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+@media 
